@@ -1,7 +1,19 @@
-#ifndef CONFIG_H
-#define CONFIG_H
+#ifndef _CONFIG_H
+#define _CONFIG_H
 
-//#define VALUE_NAME VALUE
+#define TS_LED_NUMBER 60
+#define SS_LED_NUMBER 60
+#define RS_LED_NUMBER 60
 
+#define TURNS_OUTPUT_PIN 6
+#define STOPS_OUTPUT_PIN 7
+#define RUNS_OUTPUT_PIN 8
+
+#define TURNS_INPUT_PIN 6
+#define STOPS_INPUT_PIN 7
+#define RUNS_INPUT_PIN 8
+
+#define LED_TYPE WS2812B
+#define COLOR_ORDER GRB
 
 #endif
